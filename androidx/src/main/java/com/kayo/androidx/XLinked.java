@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * 23:43
  * ----------
  */
-public class XLinked<V> extends LinkedList<V> implements XList<V>{
+public class XLinked<V> extends LinkedList<V> implements XList<V> {
 
     public XLinked() {
     }
@@ -23,7 +23,7 @@ public class XLinked<V> extends LinkedList<V> implements XList<V>{
         return super.isEmpty();
     }
 
-    public final boolean notEmpty(){
+    public final boolean notEmpty() {
         return !isEmpty();
     }
 }
